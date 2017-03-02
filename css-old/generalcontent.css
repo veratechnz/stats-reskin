@@ -1,0 +1,158 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 30.0%!important;
+	margin:10px 0 0 0 ;
+	padding:0;
+}
+
+.grid .one-third
+{
+        margin-top : 5px !important;
+}
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:979px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:29.9%;
+	float:right;
+	margin: 0px 1px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:nth-child(3)
+{
+	padding-right: 0px;
+}
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+		#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+
+}

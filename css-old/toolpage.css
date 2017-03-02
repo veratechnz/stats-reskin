@@ -1,0 +1,13 @@
+html, body
+{
+	margin:0;
+	padding:0;
+}
+#wrapper
+{
+	width:100%;
+	background-color: #336666;
+	height: 40px;
+	color:#efefef;
+	
+}

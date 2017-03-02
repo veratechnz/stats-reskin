@@ -1,0 +1,922 @@
+﻿
+
+/*TURN OFF FOR REFRESH*/
+.browsebox, .locationbox,.top
+{
+display:none!important;
+}
+/*right colum 30% on homepage only*/
+
+.one-third
+{
+	width: 30%!important;
+}
+
+.rightbox a
+{
+	text-decoration: none;
+	border-bottom:none;
+}
+.rightbox a:hover
+{
+	
+}
+
+#share
+{
+	margin-left: -5px;
+	width:102.3%;
+}
+
+
+#share li:first-child img, #sharefloatright li:first-child img, #sharemobile li:first-child img
+
+{
+
+	background-image: url('../images/facebook.png')!important;
+
+}
+
+
+#share li:nth-child(2) img, #sharefloatright li:nth-child(2) img, #sharemobile li:nth-child(2) img
+
+{
+	
+
+	background-image: url('../images/twitter.png')!important;
+	
+}
+
+#share li:third-child img, #sharefloatright li:third-child img, #sharemobile li:third-child img
+
+{
+
+	background-image: url('../images/linkedin.png')!important;
+
+}
+
+#share li:nth-child(3) img, #sharefloatright li:nth-child(3) img, #sharemobile li:nth-child(3) img
+
+{
+	background-color: rgb(0,133,175);
+	
+	background-image: url('../images/linkedin.png')!important;
+	
+}
+
+
+
+/*Stats in demand*/
+.statsindemand
+{
+	height:150px;
+	background-color: #f9f9f9;
+	font-size:0.95em;
+	box-shadow: 0px -3px 5px #cccccc inset ;
+}
+
+.grid .one-third
+{
+	margin-top:0px !important;
+}
+
+/*Stats in demand*/
+.bannerad
+{
+	height:auto;
+	margin-top:-5px;
+	background-color: #fefefe;
+	font-size:0.95em;
+
+
+}
+
+.bannerad img
+{
+	height:auto;
+	width: 100%;
+	box-shadow: 0px 2px 4px #555;
+}
+
+.banneradoff
+{
+display:none;
+}
+
+
+
+
+#statsindemandcentral
+{
+	width:960px;
+	margin:0px auto 0 auto;
+	color: #75a2a1;
+
+}
+
+#statsindemandcentral p
+{
+	color: #333333;
+	font-size: 0.95em;
+}
+
+
+#statsindemandcentral ul
+{	display: table;
+    width:106%;
+	padding:0px 0 0 0; 
+	white-space: nowrap;
+	margin: 0px 0px 0 -35px ;
+	
+}
+
+#statsindemandcentral li
+{	display: table-cell;
+	text-align:center;
+	list-style-type: none;
+	line-height: 0.4em;
+	
+	width: 17%;
+    padding: 0px 0px 0 0px;
+
+	
+}
+
+#statsindemandcentral a
+{
+	vertical-align: bottom;
+	padding-top:100px;
+	display:block;
+	height:5px;
+	
+
+	color: #75a2a1;
+	
+
+}
+
+
+
+/* STATS INDEMAND ICONS */
+.indemand1
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/popiconlarge.png');
+	background-position: 51% 25%;
+}	
+
+.indemand2
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/unempiconlarge.png');
+	background-position: 47% 25%;
+}
+
+.indemand3
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/cpiiconlarge.png');
+	background-position: 47% 25%;
+
+}
+
+.indemand4
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/gdpiconlarge.png');
+	background-position: 47% 25%;
+
+}
+
+.indemand5
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/visiconlarge.png');
+	background-position: 47% 25%;
+}
+
+.indemand6
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/top.png');
+	background-position: 47% 27%;
+	
+}
+
+
+/*Central content*/
+
+#latestreleases
+{
+	display:block;
+	padding:0 15px 0 0;
+	margin:0 0 0px 0;
+	
+}
+
+#latestreleases img
+{
+	box-shadow: 0px 2px 3px #a1a1a1;
+	border: 1px solid #dddddd;
+}
+
+#latestreleases ul
+{
+	display:block;
+	list-style-type: none;
+	padding:0;
+	margin: 5px 0 15px 0 ;
+}
+
+#latestreleases li
+{
+	display:block;
+	clear:both;
+	padding-top: 30px;
+}
+
+	#latestreleases h2
+	{
+
+		padding:0;
+		margin: 15px 0 -15px 0 ;
+	}
+
+#latestreleases h3
+{	
+	font-size: 1.20em;
+	color: #487979;
+	padding:0;
+	font-weight:700;
+	margin:0px 0 0 0 ;
+}
+
+#latestreleases h4
+{
+	font-size: 0.95em;
+	color: #444444;
+	font-weight: bold;
+	padding:0;
+	margin:5px 0 0 0 ;
+}
+
+#latestreleases p
+{
+	font-size: 0.95em;
+	padding:0;
+	margin:5px 0 0 0px; ;
+}
+
+
+.releasetext
+{
+	margin: 0 0 0 140px;
+	padding: 0 0 0 10px;
+	height:100px;
+}
+select
+{
+	width:100%;
+}
+
+#alsoavailable
+{
+	display:block;
+	padding:10px 0 0 0;
+	margin:0px 0 0px 0 ;
+
+	clear:both;
+	color: #336666;
+}
+
+
+#alsoavailable ul
+{
+	padding:0;
+	margin:5px 0 0 0 ;
+	list-style-type: none;
+}
+
+#alsoavailable li
+{
+	margin-bottom: 10px;
+}
+
+#alsoavailable h3
+{
+	padding:0;
+	margin:10px 0 10px 0px ;
+}
+
+#recentreleases
+{
+	display:block;
+	padding:5px 0 0 0;
+	margin:0px 0 0px 0 ;
+	
+	clear:both;
+	color: #336666;
+}
+
+#recentreleases a
+{
+	border: none;
+}
+
+#recentreleases a:hover
+{
+	border-bottom: 1px solid rgb(117, 162, 161);
+}
+
+
+#alsoavailable a
+{
+	border: none;
+}
+
+#alsoavailable a:hover
+{
+	border-bottom: 1px solid rgb(117, 162, 161);
+}
+
+#recentreleases ul
+{
+	padding:0;
+	margin:5px 0 0 0 ;
+	list-style-type: none;
+}
+
+#recentreleases li
+
+{
+	margin-bottom: 10px;
+}
+
+
+#recentreleases h3
+{
+	padding:0;
+	margin:5px 0 10px 0px ;
+}
+
+#allreleases
+{
+	color:#336666;
+	font-weight: 700;
+	font-size: 1.1em;
+	margin-top:15px;
+
+}
+#allreleases a:hover
+{
+	border-bottom:1px solid rgb(117,162,161)
+}
+
+.releasecalfull
+
+{
+	font-weight:normal;
+	height:23px;
+	padding-left: 30px;
+	padding-top:0px;
+	margin:15px 0 0 0;
+	background-repeat: no-repeat;
+	background-image: url('../images/calendaricon.png');
+	background-position: 0% 27%;
+
+	
+}
+
+#quicklinks a, #quicklinks a:hover
+{
+	line-height:1.0em;
+}
+
+.date
+{
+	float:left;
+	color:#444444;
+	font-weight: bold;
+	margin-right: 10px;
+	width:110px;
+	font-size:1.0em;
+}
+.follow
+{
+	font-size:0.8em;
+	color:#336666;
+	font-weight: 700;
+}
+
+/*HOMEPAGE RELEASES*/
+
+.releaseimage
+{
+	
+	float:left;
+	width: 140px;
+	height:100px;
+}
+
+.releaseimage img
+{
+	
+	
+	width: 130px ;
+	height:90px ;
+}
+
+.availabletext
+{
+	width:550px;
+	display:inline-block;
+	clear:left;
+}
+
+/*HOME RELEASE CALENDAR*/
+
+.reldate
+{
+
+	float:left;
+	color:#444444;
+	font-weight: bold;
+	margin-right: 10px;
+	font-size: 0.85em;
+	width:45px;
+	max-width: 30%;
+	clear:left;
+}
+
+.reltext
+{
+	
+	width:78%;
+	font-size: 0.95em;
+	display:inline-block;
+	clear:left;
+	
+	
+	
+}
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+	
+	#statsindemandcentral
+	{
+	width:100%;
+	margin:0 0;
+	font-size: 0.90em;
+	background-color: #f7f7f7;
+	
+	}
+
+	#statsindemandcentral ul
+	{
+	width:100%;
+	margin:0 0 0 0;
+	
+	}
+
+	#statsindemandcentral li:first-child
+	{	
+	padding:0px 5px 0 0px;
+	}
+	
+	#latestreleases
+	{
+		font-size: 0.95em;
+		padding-left: 2px;
+	}
+	
+	#latestreleases ul
+	{
+		margin-left:2px;
+	}
+	
+	#recentreleases
+	{
+		margin-top:0px;
+		padding-left: 2px;
+	}
+	#alsoavailable
+	{
+	padding-left: 2px;
+	}
+	.availabletext
+	{
+		max-width:70%;
+	}
+	#allreleases
+	{
+	padding-left:2px;
+	}
+	
+	.reltext
+{
+	
+	width:65%;
+	font-size: 0.95em;
+	display:inline-block;
+	clear:left;
+	
+	
+	
+}
+
+	
+	
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+	
+	.statsindemand
+	{
+			height:120px;
+	}
+	#statsindemandcentral
+	{
+	width:100%;
+
+	margin:0 0;
+	font-size: 0.80em;
+	background-color: #f7f7f7;
+	
+	}
+	#statsindemandcentral p
+	{
+	width:100%;
+	font-size: 0.90em;
+		
+	}
+
+	#statsindemandcentral ul
+	{
+	width:100%;
+	margin:0 0 0 0;
+	
+	}
+
+	#statsindemandcentral li:first-child
+	{	
+	padding:0px 5px 0 0px;
+	list-style-type: none;
+	
+	}
+	
+	#statsindemandcentral a
+	{
+	height:5px;
+	padding-top:80px;
+	}
+	
+	#statsindemandcentral li
+	{
+		padding-top:0px;
+	}
+	
+	#recentreleases
+	{
+		margin-top:0px;
+	}
+	
+	.reltext
+	{
+	
+	width:70%;
+	font-size: 0.95em;
+	display:inline-block;
+	clear:left;
+	
+	}
+	
+	#share
+{
+	margin-left: 0px;
+}
+
+
+	.indemand1
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/popiconmed.png');
+	
+}	
+
+.indemand2
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/unempiconmed.png');
+
+}
+
+.indemand3
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/cpiiconmed.png');
+
+}
+
+.indemand4
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/gdpiconmed.png');
+
+}
+
+.indemand5
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/visiconmed.png');
+	
+}
+
+.indemand6
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/topmed.png');
+	
+}
+  
+
+	
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) {
+  /* Stack anything that isn’t full-width on smaller screens */ 
+ 
+.releaseimage
+{
+	width: 75px;
+	height: 60px;	
+}
+
+.releaseimage img
+{
+	width: 70px;
+	height: 50px;	
+}
+
+#allreleases
+{
+	color:#336666;
+	font-weight: 700;
+	font-size: 0.85em;
+	margin-top:10px;
+
+}
+
+
+
+#latestreleases img
+{
+	box-shadow: 0px 0px 0px #a1a1a1;
+	border: 1px solid #cccccc;
+}
+
+#latestreleases ul
+{
+	display:block;
+	list-style-type: none;
+	padding:0;
+	margin: 5px 0 15px 2px ;
+}
+
+#latestreleases li
+{
+	display:block;
+	clear:both;
+	padding-top: 15px;
+}
+
+#latestreleases h2
+{
+	padding:0;
+	font-size:1.1em;
+	margin: 15px 0 0 0 ;
+}
+
+#latestreleases h3
+{	
+	font-size: 0.90em;
+	color: #487979;
+	padding:0;
+	margin:0px 0 0 0 ;
+}
+
+#latestreleases h4
+{
+	display:none;
+	
+}
+
+#latestreleases p
+{
+	display:none;
+	
+}
+
+#alsoavailable h3
+{
+	padding:0;
+	font-size:1.3em;
+	margin: 15px 0 0 0 ;
+}
+
+#alsoavailable 
+{
+	
+	font-size:0.80em;
+	
+}
+
+#alsoavailable li
+{
+	
+	margin-bottom: 10px;
+	
+}
+
+#recentreleases li
+{
+	
+	margin-bottom: 10px;
+	
+}
+
+#recentreleases
+{
+	
+	font-size:0.80em;
+	
+}
+
+#recentreleases h3
+{
+	padding:0;
+	font-size:1.3em;
+	margin: 15px 0 0 0 ;
+}
+
+.date
+{
+	display:none;
+}
+
+.releasetext
+{
+	margin: 0 0 0 55px;
+	padding: 0 0 0 10px;
+	height:auto;
+}
+
+.availabletext
+{
+	max-width:100%;
+}
+
+/* Stats in demand */
+.statsindemand
+{
+	height:auto;
+	background-color: #f9f9f9;
+	margin:10px 0 0 0;
+	padding: 0 0 0 0;
+	box-shadow: 0px -3px 5px #cccccc inset ;
+}
+
+
+#statsindemandcentral
+{
+	width:100%;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	color: #75a2a1;
+	 background-color: #f7f7f7;
+}
+
+#statsindemandcentral p
+{
+	color: #333333;
+	font-size: 0.95em;
+}
+
+
+#statsindemandcentral ul
+{	display: list-item;
+    width:100%;
+	margin:0 0 0 5px;
+	padding: 0 0 0 0; 
+	white-space: nowrap;
+
+	
+}
+
+#statsindemandcentral li
+{	display: list-item;
+	text-align:left;
+	height:40px;
+	line-height: 1.2em;
+	width: 100%;
+ 	margin:0 0 0 0;
+	padding: 10px 0 0 30%;
+	list-style-type: none;
+
+	
+}
+
+	#statsindemandcentral li:first-child
+	{	
+	padding:10px 0px 3px 30%;
+	list-style-type: none;
+	
+	
+	}
+	
+	#statsindemandcentral p
+	{
+	height:15px;
+	margin-top:-30px;
+	}
+	
+		#statsindemandcentral a
+	{
+	height:10px;
+	padding-top:0px;
+	margin-top:-5px;
+	padding-bottom:40px;
+	padding-left:150px;
+	margin-left:-150px;
+
+	margin-bottom:-5px;
+	}
+	
+
+
+/* STATS INDEMAND ICONS */
+
+.indemand1
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/popiconsmall.png');
+	background-position: top left;
+}	
+
+.indemand2
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/unempiconsmall.png');
+	background-position: top left;
+}
+
+.indemand3
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/cpiiconsmall.png');
+	background-position: top left;
+}
+
+.indemand4
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/gdpiconsmall.png');
+	background-position: top left;
+}
+
+.indemand5
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/visiconsmall.png');
+	background-position: top left;
+}
+
+.indemand6
+{
+	background-repeat: no-repeat;
+	background-image: url('../images/topsmall.png');
+	background-position: top left;
+}
+  
+  
+ 
+}
+

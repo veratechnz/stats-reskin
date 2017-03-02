@@ -1,0 +1,254 @@
+h3
+{
+	margin-top:20px;
+	margin-bottom:-5px;
+	font-size:1.0em;
+	color:#256f95 !important;
+
+}
+
+h3 a
+{
+	margin-bottom:10px;
+	font-size:1.7em;
+	color:#256f95 !important;
+
+}
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 30.0%!important;
+	margin:10px 0 0 0 !important;
+	padding:0;
+	
+	float:right!important;
+}
+
+.grid .one-third
+{
+        margin-top : 0px !important;
+	
+}
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:979px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:29.9%;
+	float:right;
+	margin: 0px 1px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:last-child
+{
+	padding-right: 0px;
+}
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+.content img
+{
+	
+	padding-left:0px;
+}
+.content
+{
+	margin-top:0px;
+}
+
+.label a
+{
+	color: #336666 !important;
+	font-size:1.10em;
+	font-weight:bold;
+	border: none!important;
+	list-style-image:none !important;
+}
+.label
+{
+
+	list-style-image:none !important;
+	list-style-type:none  !important;
+	margin-left:-40px  !important;
+}
+
+
+
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+
+.releasetitle
+{
+	margin-left: 5px;
+}
+
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	.pagetitle
+{
+	
+	
+	margin-top:15px;
+}
+
+.content
+{
+	margin-top:0px;
+}
+
+
+#summary
+{
+	margin-top: 10px!important;
+}
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	width:40%;
+	
+}
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+
+
+.content
+{
+	margin-top:0px;
+	margin-bottom:-10px;
+}
+
+.pagetitle
+{
+	
+	
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+
+
+
+}

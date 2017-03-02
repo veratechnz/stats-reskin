@@ -1,0 +1,280 @@
+
+
+
+.wrapperbirthday
+{
+font-family: Sans-Serif;
+font-size:0.9em;
+width:90%;
+padding:30px;
+color:#333;
+background:#ffffff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+margin:30px auto;
+background-image: url('../images/cake.png');
+background-repeat:no-repeat;
+background-position: 126% 120%;
+background-size:56%;
+
+
+
+}
+
+
+#columns_0_LblMessages
+{
+float:right;
+margin-top:-5px;
+color:#e33838;
+}
+
+.introbrithdayheading
+{
+color:#fff;
+background: #23a799 !important;
+padding:20px 30px 20px 30px;
+font-size:1.5em;
+margin:-30px -30px;
+	border-radius: 2px 2px 0 0 ;
+	-webkit-border-radius: 2px 2px 0 0 ; 
+	-moz-border-radius: 2px 2px 0 0 ; 
+}
+
+.introbrithdaycontent
+{
+margin-top:60px;
+margin-bottom:30px;
+	
+}
+.dobheading
+{
+color: #23a799 !important;
+font-size:1.2em!important;
+padding:0!important;
+margin:0 0 0px 0;!important;
+font-weight:normal!important;
+margin-bottom:10px!important;
+}
+
+
+
+.daybox
+{
+
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+
+margin-top:30px;
+	width:100%;
+margin-left:auto;
+margin-right:auto;
+overflow:hidden;
+
+
+margin-bottom:30px;
+}
+
+.day
+{
+border:0;
+height: 40px;
+border-bottom: 1px solid #c3c3c3;
+font-size:1.1em;
+width:100%;
+	
+display:inline-block;
+
+
+}
+
+.monthbox
+{
+
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+
+
+overflow:hidden;
+
+	width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.month
+{
+width:100%;
+height: 40px;
+border:0;
+
+color:#333;
+font-size:1.1em;
+border-bottom: 1px solid #c3c3c3;
+
+}
+
+#columns_0_BtnSubmit
+{
+background:#23a799;
+padding:12.5px;
+color:#fff;
+border:0;
+display:inline-block;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+
+	width:100%;
+
+margin-top:30px;
+position:relative;
+
+
+margin-left:0%;
+
+}
+
+
+
+
+
+
+.result
+{
+
+width:100%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+margin-left:auto;
+margin-right:auto;
+min-height:300px;
+display:block;
+}
+
+.result1
+{
+width:100%;
+
+
+padding-top:30px;
+padding-bottom:10px;
+}
+.label3
+{
+	margin-bottom:15px;
+color: #23a799 !important;
+font-size:1.2em!important;
+}
+
+.result2
+{
+
+
+width:100%;
+
+
+padding-top:30px;
+padding-bottom:30px;
+
+}
+.label4
+{
+	margin-bottom:15px;
+color: #23a799 !important;
+font-size:1.2em!important;
+}
+
+.result3
+{
+width:100%;
+
+
+padding-top:10px;
+
+}
+.label5
+{
+	margin-bottom:15px;
+color: #23a799 !important;
+font-size:1.2em!important;
+}
+
+.label3, .label4, .label5
+{
+width:auto;
+
+}
+
+
+.people
+{
+width:auto;
+display:inline-block;
+font-size:1.6em;
+}
+
+
+.resulttext1, .resulttext2, .resulttext3
+{
+width:auto;
+font-size:1.6em;
+display:inline-block;
+}
+
+
+@media screen and (max-width: 500px)
+
+{
+
+
+.introbrithdayheading
+{
+	font-size:1.2em;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.day, .month
+{
+width:100%;
+}
+
+.wrapperbirthday
+{
+font-size:0.9em;
+padding:10px 15px 20px 15px ;
+width:90%;
+background-image: none;
+
+}
+
+
+.people
+{
+
+font-size:1.0em;
+}
+.result1, .result2, .result3
+{
+text-align:center;
+}
+
+.resulttext1, .resulttext2, .resulttext3
+{
+font-size:1.0em;
+
+
+}

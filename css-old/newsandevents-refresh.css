@@ -1,0 +1,208 @@
+
+
+
+/*right colum 30% */
+.one-third
+{
+	width: 31.0%!important;
+	margin:-13px 15px 0 0px !important;
+	padding:0;
+	
+	float:right!important;
+}
+
+.two-thirds
+{
+width:66% !important;
+}
+
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+.content
+{
+	margin-left: -0px;
+	margin-bottom:20px;
+}
+.content .content
+{
+-webkit-box-shadow: none;
+-moz-box-shadow:  none;
+box-shadow:      none;
+background:transparent;
+}
+.content .content ul
+{
+	margin-left: -19px;
+	
+}
+.content .content li
+{
+	display:block;
+}
+
+ .content h2
+{
+	margin-bottom: 10px !important;
+}
+
+.ST_col_date
+{
+	font-size: 1.0em;
+	color:#444;
+	font-weight: bold;
+	float: left;
+	margin-right: 15px;
+	display:inline-block;
+	width:125px;
+}
+
+.linkMore
+
+{
+	margin-top:15px !important;
+	display:block;
+ 	clear: both;
+	border-bottom: none !important;
+	
+}
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+.content .content ul
+{
+	margin-left: -23px;
+}
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+.content .content ul
+{
+	margin-left: -14px;
+}
+
+.linkMore
+
+{
+	
+	font-size: 0.85em;
+	
+}
+
+.ST_col_date
+{
+	font-size: 1.0em;
+	color:#444;
+	display:block;
+	font-weight: bold;
+	float:none;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-top:10px;
+	
+}
+
+.block .fullWidth .newsAndEvents
+{
+	
+}
+
+}

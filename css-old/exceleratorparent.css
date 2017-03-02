@@ -1,0 +1,729 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 30.0%!important;
+	margin:10px 0 0 0 ;
+	padding:0;
+	float:right!important;
+}
+
+
+
+.jumplinks
+{
+	margin-top:0px !important;
+}
+
+.rightbox
+{
+
+	margin-top:-75px;
+}
+
+
+.content
+{
+	min-height:0px !important;
+}
+
+
+
+
+.multicurrent
+
+{
+	background-image:url('../images/selectarrow.png');
+	background-repeat: no-repeat;
+	background-position: left;
+		font-weight:700;
+}
+
+.releasetitle
+{
+	font-size:1.9em;
+	font-weight: bold;
+	color: #555555;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom:15px;
+}
+
+.embargodate
+{	
+	font-size: 0.80em;
+	color: #595959;
+	margin-top:5px;
+	font-weight: 700;
+	margin-left: 0px;
+}
+.pagetitle
+{
+	width:97% !important;
+	color:#336666;
+	
+	
+	}
+
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:981px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:30%;
+	float:right;
+	margin: 0px 2px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:last-child
+{
+	padding-right: 0px;
+}
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+.lists li
+
+{
+display:block;
+
+}
+
+.lists ul
+
+{
+	margin-left:-15px;
+}
+
+.lists ul ul
+
+{
+	margin-left:0px;
+}
+
+.lists img
+{
+	margin-right:15px;
+width:20px !important;
+height:20px!important;
+}
+
+.lists a
+{
+	border-bottom: 0px solid #ccc;
+}
+
+.lists a:hover
+{
+	border-bottom: 0px solid #ccc;
+}
+
+
+.content img
+{
+
+
+	padding-left:0px;
+}
+.content
+{
+	margin-top:0px;
+}
+
+/*Tables*/
+
+.pvt_table
+{
+	border:1px solid #cccccc;
+}
+
+.table_title
+{
+	font-weight:700;
+	font-size:1.1em;
+	text-align:left;
+}
+
+.table_subtitle
+{
+	text-align:left;
+	
+	font-weight:lighter;
+}
+
+.pvt_rowalt_1 td, .pvt_rowalt_0 td,.pvt_totalrow td
+{
+	font-size:1.0em;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	vertical-align:bottom;
+	
+}
+
+.pvt_rowalt_0
+{
+	background: #ececec;
+}
+
+.pvt_totalrow
+{
+	background: #cccccc;
+}
+
+.pvt_aggregate
+
+{
+	text-align:right;
+}
+
+
+.jumplinks a
+{
+	color:#528787 !important;
+
+	font-size:0.95em;
+
+}
+
+
+
+.jumplinks li:hover
+{
+	
+}
+
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	margin-left:-10px;
+	padding-left:10px;
+	width:80%;
+	
+	
+}
+
+
+.multisections a
+{
+	color:#528787 !important;
+	text-decoration: none;
+	font-size:0.95em;
+	
+
+}
+
+.jumplinks a
+{
+	color:#528787 !important;
+	border-bottom: none;
+	font-size:0.95em;
+
+}
+
+.jumplinks a:hover
+{
+	border-bottom: none;
+}
+
+.multisections a
+{
+	color:#528787 !important;
+	border-bottom: none;
+	font-size:0.95em;
+
+}
+
+.multisections a:hover
+{
+	border-bottom: none;
+}
+
+
+
+.multisections h2
+ {
+	font-size: 1.1em;
+ }
+
+.multicurrent
+
+{
+	background-image:url('../images/selectarrow.png');
+	background-repeat: no-repeat;
+	background-position: left;
+		font-weight:700;
+}
+
+
+.multisections li:hover
+{
+
+	
+	
+}
+
+
+
+.multisections li
+{
+	display:inline-block;
+	margin-right:30px;
+	margin-left:-10px;
+	padding-left:10px;
+	width:25%;
+	vertical-align: top;
+	
+	
+}
+
+.multisections
+{
+
+	margin-top: 15px;
+	width:98%;
+}
+
+
+
+.chapternum
+{
+	color: #444;
+	vertical-align:top;
+	display:inline-block;
+	width: 8%;
+	}
+.chaptertext
+{
+	display:inline-block;
+	width:85%
+}
+
+#bottombox
+{
+	margin-top:-75px;
+}
+#topbox
+{
+	margin-top:0px;
+}
+
+#dropclick { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+
+@-webkit-keyframes bounceInLeft { 
+    0% 
+{ 
+        opacity: 0; 
+        -webkit-transform: translateX(-2000px); 
+    } 
+    60% 
+{ 
+        opacity: 1; 
+        -webkit-transform: translateX(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateX(-10px); 
+    } 
+    100% 
+{ 
+        -webkit-transform: translateX(0); 
+    } 
+}
+ 
+
+
+@keyframes bounceInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        transform: translateX(30px); 
+    } 
+    80% { 
+        transform: translateX(-10px); 
+    } 
+    100% { 
+        transform: translateX(0); 
+    } 
+} 
+
+#dropclick { 
+    -webkit-animation-name: bounceInLeft; 
+    animation-name: bounceInLeft; 
+}
+
+
+/*DROPDOWN MENUS*/
+
+
+
+.drop li ul 	{
+		display: none;  
+		height: auto;									
+		margin: 0; 
+		padding: 0; 
+		border-top:none !important;
+		border:0px;
+		}				
+
+
+						
+.drop li
+{
+	
+	width:100% !important;
+	margin-left:-30px;
+	display:block;
+	list-style-image:none;
+}
+
+.drop ul
+{
+	margin-top: -15px !important;
+	
+	padding-top:15px;
+	border-top:none !important;
+}
+.nextprev
+{
+	margin-top:-5px !important;
+	color: rgb(249, 249, 249) !important;
+	float:right;
+}
+			
+
+
+#drop
+{
+		display:none;
+		border-top:none !important;
+}
+
+.drop
+{
+		display:none;
+		margin-top:0px;
+		margin-bottom:15px;
+		box-shadow: 0px 2px 4px #cccccc;
+		border-top:none !important;
+		border-left: 1px solid #90c6c5;
+		border-right: 1px solid #90c6c5;
+		border-bottom: 1px solid #90c6c5;
+	
+}
+
+#dropclick
+{
+	background:#2979ff;
+	padding: 15px 10px 15px 10px;
+	margin-bottom: 15px;
+	box-shadow: 0px 2px 4px #cccccc;
+
+	
+}
+
+#dropclick a
+{
+color:#fff !important;
+display:block;
+border-bottom: 0px solid #fff;
+background-image:url('../images/droparrow.png');
+
+	background-repeat: no-repeat;
+	background-position: right;
+animation: shake 1s ease-in-out;
+}
+
+#dropclick a:hover
+{
+color:#fff !important;
+border-bottom: 0px solid #fff;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-5px);
+  }
+
+  40% {
+    transform: translateX(5px);
+  }
+
+  60% {
+    transform: translateX(-5px);
+  }
+
+  80% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+  }
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+
+
+
+	
+
+.embargodate
+{	
+	margin-left: 5px ;
+	
+}
+
+}
+
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+.jumplinks
+{
+	margin-top:0px !important;
+}
+
+.rightbox
+{
+
+	margin-top:0px;
+}
+
+.rightbox
+{
+	margin-bottom:5px !important;
+}
+
+
+
+
+	.pagetitle
+{
+	
+	margin-top:15px;
+}
+
+.content
+{
+	margin-top:0px;
+	min-height:0px !important;
+}
+
+
+#summary
+{
+	margin-top: 10px!important;
+}
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	width:40%;
+	
+}
+
+.pagetitle
+{
+	
+	margin-top: 0px;
+	}
+	
+	
+.multisections
+{
+	margin-top: 17px;
+	margin-bottom:-5px;
+	width:98.8%;
+	
+}
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+
+.releasetitle
+{
+	font-size: 1.3em !important;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+
+
+.content
+{
+	margin-top:0px;
+	margin-bottom:-10px;
+}
+
+
+
+.pagetitle
+{
+	
+	
+	font-size:1.4em;
+	margin-left:0px;
+	margin-bottom:15px !important;
+	}
+
+.embargodate
+{	
+	font-size: 0.65em;
+	color: #595959;
+	margin-top:2px;
+	font-weight: 700;
+	margin-left: 0px;
+	margin-bottom:-10px;
+}
+
+.nextprev
+{
+	display:none;
+}
+
+.chapternum
+{
+	color: #444;
+	vertical-align:top;
+	display:inline-block;
+	width: 15%;
+	}
+	
+	.multisections
+	{
+		width:100%;
+	}
+
+
+
+
+}
