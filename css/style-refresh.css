@@ -2424,3 +2424,78 @@ font-weight:normal!important;
 margin-bottom:10px!important;
 }
 
+
+
+/* All css updates */
+
+/*HTML Adjustments*/
+/*Logo (stats-logo) is currently hotfixed with html and inline css*/
+
+/*Colors.....*/
+.grey {
+	background-color: #706f6e !important;
+}   
+.orange {
+	background-color: #ec6607 !important;
+}    
+.blue {
+	background-color: #004f9e !important;
+}  
+.purple {
+	background-color: #6f2282 !important;
+}   
+.cyan {
+	background-color: #009bb4 !important;
+}   
+.red {
+	background-color: #004f9e !important;
+}   
+.yellow {
+	background-color: #fbb900 !important;
+}   
+.green {
+	background-color: #51ae32 !important;
+}   
+.icon-white {
+	background-color: #bbbbbb !important;
+}   
+.grey {
+	background-color: #706f6e !important;
+}   
+.logo-grey {
+	background-color: #706F6F !important;
+}   
+.light-grey {
+	background-color: #F2F2F2 !important;
+}   
+.medium-grey {
+	background-color: #B7B7B7 !important;
+}   
+.dark-grey {
+	background-color: #494949 !important;
+}   
+.black {
+	background-color: #000 !important;
+}   
+.gunmetal-grey {
+	background-color: #333333 !important;
+}   
+.font-black {
+	background-color: #212121 !important;
+}   
+
+
+/*Header & Navigation*/
+#header {
+	background-color: #fff;
+}
+
+#navigation {
+    background: #fff;
+}
+
+.normalnav, .normalnav a {
+    color: #000 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
