@@ -76,9 +76,16 @@
 body {
 	font-size: 15px !important;
 	font-family: 'Source Sans Pro';
+	background: #706f6e none repeat scroll 0 0 !important;
 }
 .indemand1 p, .indemand2 p, .indemand3 p, .indemand4 p, .indemand5 p {
     font-size: 1em !important;
+}
+
+.breadcrumbs {
+    color: #ec6607  !important;
+    font-size: 0.75em;
+    font-weight: normal !important;
 }
 
 /*Header & Navigation*/
@@ -89,6 +96,19 @@ body {
 
 #navigation {
     background: #fff;
+}
+
+
+#footer {
+    background: #706f6e none repeat scroll 0 0;
+}
+
+#footer a {
+    color: #eeeeee;
+}
+
+#footer h2:hover, #footer h2 a:hover, #footer a:hover {
+	color: #ec6607;
 }
 
 .normalnav, .normalnav a {
@@ -234,5 +254,68 @@ body {
 }
 
 #share, #sharefloatright {
-	top: 140px;
+	top: 201px;
 }
+
+
+/*Page Title Full Page Templates*/
+/*http://stats.govt.nz/browse_for_stats.aspx*/
+
+.pagetitle {
+	background-color: #ec6607;
+}
+
+.content h2 a, .content h2 a:hover {
+    border: medium none;
+    color: #ec6607 !important;
+}
+
+.content h2 {
+    color: #ec6607 !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin: 25px 0 5px;
+    padding: 0;
+}
+
+
+.content a {
+    border-bottom: 1px solid #cccccc;
+    color: #444 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.content a:hover {
+    border-bottom: 1px solid #ec6607;
+    color: #ec6607 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.jumplinks a {
+    color: #706f6e !important;
+}
+
+.rightbox a {
+    color: #706f6e;
+}
+
+.rightbox a:hover {
+	color: #ec6607;
+	border-color: #ec6607;
+}
+
+.jumplinks a:hover {
+	color: #ec6607 !important;
+	border-color: #ec6607;
+}
+
+.back-to-top {
+    background-color: #f2f2f2;
+    color: #706f6e;
+}
+
+
+
