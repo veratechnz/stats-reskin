@@ -1,0 +1,331 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 30.0%!important;
+	margin:10px 0 0 0 ;
+	padding:0;
+	float:right!important;
+	}
+	
+	/* CUT GAP FROM ONE THIRDS */
+	
+.grid .one-third
+{
+	margin-top:70px!important;
+}
+
+
+.grid .one-third:nth-last-of-type(2)  
+
+{ margin-top:-5px !important;} 
+
+
+
+
+
+
+
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:979px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:29.6%;
+	float:right;
+	margin: 0px 2px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:last-child
+{
+	padding-right: 0px;
+}
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+.content img
+{
+	border: 1px solid #cccccc;
+
+	padding-left:0px;
+}
+.content
+{
+	margin-top:15px;
+}
+
+.subtitle
+{
+	line-height:1.1em;
+}
+
+.pagetitle
+{
+	width:98%;
+}
+
+
+
+
+.jumplinks a
+{
+	color:#528787 !important;
+
+	font-size:0.95em;
+
+}
+
+
+
+.jumplinks li:hover
+{
+	
+}
+
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	margin-left:-10px;
+	padding-left:10px;
+	width:80%;
+	
+	
+}
+
+.embargodate
+{	
+	font-size: 0.80em;
+	color: #595959;
+	margin-top:-5px;
+	font-weight: 700;
+	margin-left: 0px;
+}
+
+
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+
+.releasetitle
+{
+	margin-left: 5px;
+}
+
+
+	
+
+.embargodate
+{	
+	margin-left: 5px ;
+	
+}
+
+}
+
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	.pagetitle
+{
+	
+	
+	margin-top:15px;
+}
+
+.content h2:first-child
+{
+		
+	margin-top:35px !important;
+}
+
+
+.subtitle
+{
+	margin-top:35px !important;
+}
+.content
+{
+	margin-top:-30px;
+}
+
+.grid .one-third
+{
+	margin-top:10px!important;
+}
+
+
+.grid .one-third:nth-last-of-type(2)  
+
+{ margin-top:10px !important;} 
+
+
+#summary
+{
+	margin-top: 10px!important;
+}
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	width:40%;
+	
+}
+
+.grid .secondbox
+{
+	margin-top:0px;
+}
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+
+
+.content
+{
+	margin-top:-30px;
+	margin-bottom:-10px;
+}
+
+.pagetitle
+{
+	
+	
+	margin-top:0px !important;
+	margin-left:0px!important;
+	margin-bottom:5px!important;
+}
+
+.rightbox
+{
+	margin-bottom:5px !important;
+}
+
+.embargodate
+{	
+	font-size: 0.65em;
+	color: #595959;
+	margin-top:2px;
+	font-weight: 700;
+	margin-left: 0px;
+	margin-bottom:-10px;
+}
+
+
+
+}

@@ -1,0 +1,202 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 30.0%!important;
+	margin:10px 0 0 0 ;
+	padding:0;
+}
+
+#popclock
+{
+	margin:20px 0 20px 0;
+	width:99%;
+	color:#555;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	padding:5px 0px 20px 0;
+	
+	
+	
+}
+
+.popclocknumber
+{
+	
+	display: inline-block;
+	width:100%;
+
+	font-size: 4.85em;
+	font-weight: 700;
+	color:#256f95;
+}
+
+.popclocktext
+{
+		font-weight: 700;
+		color: #444444;
+}
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:979px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:29.6%;
+	float:right;
+	margin: 0px 2px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:nth-child(3)
+{
+	padding-right: 0px;
+}
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#popclock
+{
+	margin-left: 0px;
+}
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+	
+}
+
+#popclock
+{
+	margin-left: 0px;
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+#popclock
+{
+	margin-left: 2px;
+	font-size:0.75em
+}
+
+.popclocknumber
+{
+	font-size: 3.8em;
+}
+
+}

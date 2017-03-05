@@ -1,0 +1,462 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 30.0%!important;
+	margin:10px 0 0 0 ;
+	padding:0;
+}
+
+.rightbox
+{
+	color: #444;
+}
+
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:979px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:29.6%;
+	float:right;
+	margin: 0px 2px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:nth-child(3)
+{
+	padding-right: 0px;
+	
+}
+
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+/*Release calendar*/
+
+.ST_col_date
+
+{
+
+	font-size: 1.1em;
+	color:#256f95;
+	font-weight: bold;
+	margin-top:15px;
+	margin-bottom: -23px;
+	margin-left: -100px;
+	
+	
+}
+
+
+.content
+{
+	padding-top: 5px;
+}
+#releasecalendar 
+{
+width:100%;
+}
+#releasecalendar ul
+
+{
+margin-top: 40px;
+	margin-left:60px;
+}
+#releasecalendar li
+{
+	display:block;
+	margin-top:5px;
+	margin-left:0px !important;
+	line-height: 1.5em;
+	
+	
+	
+	
+}
+
+
+
+#releasecalendar a
+{
+	border-bottom: none;
+}
+
+#releasecalendar li a
+{
+	
+	margin-top:0px;
+	
+	
+} #releasecalendar a:hover
+{
+	border-bottom: 1px solid rgb(117, 162, 161);
+
+
+}
+#releasecalendar a
+{
+
+	border-bottom: 1px solid #cccccc;
+	
+	
+}
+
+.calreltext
+{
+display:inline-block;
+width:85%;
+margin-right: 35px;
+}
+
+
+
+select
+{
+	
+	width: 350px;
+	font-size: 80%;
+	color: #444;
+	background: rgb(248, 248, 248);
+	margin-bottom:-16px;
+	border:0;
+	border-bottom: 1px solid #ccc;
+	
+	
+}
+
+
+
+.pagerTabsRight
+{
+	margin-top:9px;
+	float:right;
+
+	text-decoration:none !important;
+}
+
+.linkNext, .linkPrevious
+{
+
+  color: #FFFFFF !important;
+  font-size: 14px!important;
+  padding: 5px 25px!important;
+  -moz-border-radius: 40px!important;
+  -webkit-border-radius: 40px!important;
+  border-radius: 40px!important;
+  
+  background: #336666!important;
+    border-bottom: none !important;
+  text-decoration:none !important;
+  		-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75)!important;
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.75)!important;
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.75)!important;
+}
+
+
+
+.content .linkNext a,.content .linkPrevious a
+{
+color: #FFFFFF !important;
+	  text-decoration:none !important;
+	  border-bottom: none !important;
+	    		-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75)!important;
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.75)!important;
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.75)!important;
+}
+
+
+.separator
+{	color:  rgb(248, 248, 248);
+	padding: 0 5px 0 5px;
+}
+
+.pagerTop a, .pagerTop a:hover
+{
+color: #FFFFFF !important;
+}
+.ST_download_calendar img
+{
+padding-top:2px;
+}
+
+.ST_download_calendar
+{
+	width:25px;
+	
+	margin-right:20px;
+	display:inline-block;
+	clear:right;
+	vertical-align:top;
+	color: transparent;
+	
+	
+}
+
+.month-selector
+{	margin-top:0px;
+	width: 200px;
+	height:30px;
+	font-size: 1.6em;
+	
+}
+
+.pagerBottom
+{
+display:none;
+}
+
+#activeheader
+{
+	background:#336666;
+	width: 100%;
+	margin-top:-2px;
+	margin-left:-115px;
+	padding-right:100px;
+	height:40px;
+	padding-top:20px;
+	font-size:1.5em;
+	color:#fff;
+	padding-left:15px;
+	border-radius: 2px; 
+-moz-border-radius: 2px; 
+-webkit-border-radius: 2px; 
+		
+		-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+}
+#activereleases
+{
+background: #fff;
+margin-left:-100px;
+margin-bottom:20px;
+padding-left: 115px;
+padding-top:1px;
+padding-bottom:20px;
+border-radius: 2px; 
+-moz-border-radius: 2px; 
+-webkit-border-radius: 2px; 
+
+			-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+}
+#futureheader
+{
+
+	background:#1862B8;
+	width: 100%;
+	margin-left:-115px;
+	padding-right:100px;
+	height:40px;
+	padding-top: 20px;
+	margin-top:-20px;
+		font-size:1.5em;
+	color:#fff;
+	padding-left:15px;
+	border-radius: 2px; 
+-moz-border-radius: 2px; 
+-webkit-border-radius: 2px; 
+
+			-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+}
+#futurereleases
+{
+margin-left:-100px;
+padding-top:1px;
+
+padding-left: 115px;
+background: #fff;
+padding-top:20px;
+padding-bottom:20px;
+border-radius: 2px; 
+-moz-border-radius: 2px; 
+-webkit-border-radius: 2px; 
+
+			-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.50);
+}
+
+#futurereleases .ST_col_date
+
+{
+
+	color:#1862B8;
+		
+}
+
+#activereleases .ST_col_date
+
+{
+	color:#336666;
+	
+}
+
+
+.ST_download_calendar a
+{
+color: transparent;
+border:0;
+}
+
+#futurereleases a, #futurereleases a:hover
+{
+border:0 !important;
+text-decoration:none;
+}
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+select
+{
+	width: 280px !important;
+}
+.month-selector
+{
+	width: 280px !important;
+}
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+.pagerTabsRight
+{
+	display:none;
+}
+
+select
+{
+	width: 100% !important;
+}
+.month-selector
+{
+	width: 100% !important;
+}
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+.ST_col_date
+{
+	clear:right;
+}
+
+
+}

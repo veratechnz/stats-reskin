@@ -1,0 +1,277 @@
+#wrapper, .wrap, #sb-site
+{
+	width:100%;
+}   
+
+
+   .wrapperbirthday
+    {
+    font-family: Sans-Serif;
+    width:90%;
+    padding:30px;
+    color:#444;
+	height:800px;
+    margin:0px auto;        
+	background-repeat:no-repeat;
+	 background-image: url('../images/fullbg.png');
+	  background-size: 100% auto;
+
+
+    }
+	
+    .introbirthday
+    {
+            width:100%;
+    }
+    .introbrithdayheading
+    {
+    color:#fff;
+    width:100%;
+	display:none;
+
+    padding:20px 30px 20px 30px;
+    font-size:1.5em;
+    margin:-30px -30px;
+	border-radius: 2px 2px 0 0 ;
+	-webkit-border-radius: 2px 2px 0 0 ; 
+	-moz-border-radius: 2px 2px 0 0 ; 
+    }
+        
+    .introbrithdaycontent
+    {
+    margin-top:60px;
+    width:100%; 
+		display:none;	
+    }
+        
+    .ddlStyle
+    {
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    background-position: 103% 150%;
+    height: 40px;
+    border:0;
+    border-bottom: 1px solid #c3c3c3;
+    width:93%;
+    }
+
+    div{
+    display:inline-block;
+    float:left;
+    font-size:15px;
+    }
+
+.main{
+    width:100%;
+   height:50%;
+	
+
+}
+
+.main h3
+{
+
+color:#333;
+width:auto;
+}
+
+.main ul
+{
+width:80%;
+	margin-left:-40px;
+	color:#fefefe;
+	
+
+	
+}
+
+
+
+#SpnSupport, #SpnNeighbour, #SpnMeals, #SpnFriends
+{
+background-color: rgba(29,29,27,.50);
+padding:5px;
+padding:5px;
+border-radius:2px;
+display:block;
+ width:90%; 
+ text-align:center;
+}
+
+.one h3, .three h3
+{
+width:75%;
+height:60px;
+font-size:1.1em;
+float:left;
+
+
+}
+
+.two h3, .four h3
+{
+width:75%;
+height:43px;
+font-size:1.1em;
+float:right;
+
+}
+
+#SpnSupport, #SpnMeals
+{
+margin-left:16px;
+margin-top:-15px;
+}
+
+.one{
+  width:50%;
+  height:100%;
+ text-align:left;
+ 
+}
+.two{
+  width:50%;
+  height:100%;
+ text-align:right;
+}
+
+.two ul
+{
+	 text-align:right;
+	 float:right;
+}
+
+.three{
+  width:50%;
+  height:100%;
+  text-align:left;
+
+}
+
+
+.four{
+  width:50%;
+  height:100%;
+ text-align:right;
+ 
+
+}
+
+.four ul
+{
+	 text-align:right;
+	  float:right;
+}
+
+@media screen and (max-width: 690px) 
+{
+	.main
+	{
+	height:360px;
+	}
+
+	}
+
+	@media screen and (max-width: 650px) 
+{
+	.main
+	{
+	height:320px;
+	}
+
+	}
+
+@media screen and (max-width: 610px) 
+{
+
+.one, .two, .three, .four
+{
+width:94%;
+display:block;
+float:left;
+padding:30px 0 30px 0;
+text-align:center;
+height:auto;
+}
+
+#SpnSupport, #SpnNeighbour, #SpnMeals, #SpnFriends
+{
+margin-left:0;
+width:98%;
+margin-top:-15px;
+}
+
+.one ul, .two ul, .three ul, .four ul
+{
+text-align:center;
+float:left;
+width:100%;
+}
+
+.one
+{
+background:#fed355;
+padding-left:3%;
+padding-right:3%;
+}
+
+.two
+{
+background:#6bb42c;
+padding-left:3%;
+padding-right:3%;
+}
+
+.three
+{
+background:#369a93;
+padding-left:3%;
+padding-right:3%;
+}
+.four
+{
+background:#ec6034;
+padding-left:3%;
+padding-right:3%;
+}
+
+
+.main
+{
+height:auto;
+}
+
+
+.one h3, .two h3, .three h3, .four h3
+{
+height:auto;
+width:100%;
+margin: auto auto;
+
+
+}
+
+   .wrapperbirthday
+    {
+    font-family: Sans-Serif;
+    width:auto;
+    padding:47% 0px 0px 0px;
+    color:#444;
+	background:#ccc;
+	-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+		
+    margin:0px auto;        
+	background-repeat:no-repeat;
+	background-image: url('../images/bgvertical.png');
+	background-position:50% top;
+	  background-size:  100% auto;
+
+
+    }
+
+}

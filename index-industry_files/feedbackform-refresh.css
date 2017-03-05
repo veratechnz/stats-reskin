@@ -1,0 +1,175 @@
+
+
+/*FORM STYLES*/
+select, textarea
+{
+	width:70%;
+	margin-bottom: 20px;
+	margin-top:10px;
+}
+
+input
+{
+	width:50%;
+	margin-bottom: 20px;
+	margin-top:10px;
+}
+
+label
+{
+	margin:20px 0 10px 0;
+}
+.scfForm
+{
+width:auto!important;
+	margin-left:0px;
+	padding:30px;
+background:#fff;
+margin-top:15px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+}
+
+.scfSectionLegend
+{
+	font-size: 1.4em;
+	font-weight:bold;
+	color: #336666;
+	margin-bottom: 5px;
+	margin-left:-10px;
+
+}
+
+.scfSectionUsefulInfo
+{
+	margin-left: -10px !important;
+}
+
+
+
+.scfRadioButtonList table, .scfCheckBoxList table
+
+{
+	width:70%;
+	text-align: left;
+	
+}
+
+.scfRadioButtonList input, .scfCheckbox input, .scfCheckBoxList input
+{
+	width:auto;
+	text-align: left;
+}
+
+.scfRadioButtonList input[type="radio"], .scfCheckbox input[type="checkbox"], .scfCheckBoxList input[type="checkbox"]
+{
+	margin-right: 30px;
+	
+}
+
+.scfRadioButtonList label, .scfCheckbox label, .scfCheckBoxList label
+{
+	margin-right:30px;
+}
+
+
+.scfIntroBorder
+{
+	font-size: 0.85em;
+	margin-bottom: 10px;
+	margin-left:0px;
+}
+
+.scfRequired
+{
+	display:none;
+}
+
+.scfFooterBorder
+{
+	margin-top:-20px;
+	margin-left:0px;
+}
+
+.scfFooterBorder h2
+{
+	font-size: 1.2em;
+}
+
+.scfSectionContent
+{
+	margin-left: -10px;
+}
+
+
+.scfTitleBorder 
+{
+	display:none !important;
+}
+
+.scfSectionBorderAsFieldSet
+{
+	border:none;
+}
+
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+select, textarea
+{
+	width:58%;
+
+}
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+	
+select, textarea
+{
+	width:100%;
+	margin-bottom: 20px;
+	margin-top:10px;
+}
+
+input
+{
+	width:100%;
+	margin-bottom: 20px;
+	margin-top:10px;
+}
+
+
+
+
+}

@@ -1,0 +1,80 @@
+/*right colum 30% */
+
+.one-third
+{
+	width: 31.0%!important;
+	margin:-13px 15px 0 0px !important;
+	padding:0;
+	
+	float:right!important;
+}
+
+.two-thirds
+{
+width:66% !important;
+}
+
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 900px)
+{
+
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+.content
+{
+margin-top:0px!important;
+}
+
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{	
+#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+
+}

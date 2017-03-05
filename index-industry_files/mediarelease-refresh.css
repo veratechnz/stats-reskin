@@ -1,0 +1,298 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 31.0%!important;
+	margin:-13px 15px 0 0px ;
+	padding:0;
+	
+	float:right!important;
+}
+
+.grid .one-third
+{
+margin-top:-13px !important;
+margin-bottom:0px!important;
+}
+.two-thirds
+{
+width:66% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+.content img
+{
+	border: 1px solid #cccccc;
+
+	padding-left:0px;
+}
+.content
+{
+	margin-top:-40px;
+	padding-top:50px;
+}
+
+.subtitle
+{
+	line-height:1.1em;
+}
+
+
+
+
+
+
+.jumplinks a
+{
+	color:#528787 !important;
+
+	font-size:0.95em;
+
+}
+
+
+
+.jumplinks li:hover
+{
+	
+}
+
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	margin-left:-10px;
+	padding-left:10px;
+	width:80%;
+	
+	
+}
+
+.embargodate
+{	
+z-index:100000;
+position:relative;
+	font-size: 0.80em;
+	color: #595959;
+	padding-top: 30px;
+	margin-top:-5px;
+	font-weight: 700;
+	margin-left: 0px;
+	padding-left:25px;
+}
+
+
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 900px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+.content
+{
+	
+	padding-top:1px;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+
+.releasetitle
+{
+	margin-left: 5px;
+}
+
+.grid .one-third
+{
+margin:-12px 0px 5px 0px!important ;
+
+}
+
+	
+
+.embargodate
+{	
+	display:none;
+	
+}
+
+}
+
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	.pagetitle
+{
+	
+	
+	margin-top:15px;
+}
+
+.content h2:first-child
+{
+		
+	margin-top:35px !important;
+}
+
+
+.subtitle
+{
+	margin-top:35px !important;
+}
+.content
+{
+	margin-top:-30px;
+}
+
+
+
+.grid .one-third:nth-last-of-type(2)  
+
+{ margin-top:10px !important;} 
+
+
+#summary
+{
+	margin-top: 10px!important;
+}
+.jumplinks li
+{
+	display:inline-block;
+	margin-right:30px;
+	width:40%;
+	
+}
+
+.grid .secondbox
+{
+	margin-top:0px;
+}
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+
+
+.content
+{
+	margin-top:-30px;
+	margin-bottom:-10px;
+}
+
+
+
+
+
+.embargodate
+{	
+	font-size: 0.65em;
+	color: #595959;
+	margin-top:2px;
+	font-weight: 700;
+	margin-left: 0px;
+	margin-bottom:-10px;
+}
+
+
+
+}

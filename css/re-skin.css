@@ -1,0 +1,352 @@
+/* All css updates */
+
+/*HTML Adjustments*/
+/*Logo (stats-logo) is currently hotfixed with html and inline css*/
+/*Didn't remove this from the html as I used an entire css based approach --- below*/
+#allreleases {
+	display: none;
+}
+
+#homereleasecal {
+	margin-top: 0px;
+}
+
+
+/*Image Fixes*/
+.indemand1, .indemand2,.indemand3, .indemand4, .indemand5 {
+    background-image: url("../images/placehold.png");
+    background-position: 4% 50%;
+    background-repeat: no-repeat;
+}
+
+/*Colors.....*/
+.grey {
+	background-color: #706f6e !important;
+}   
+.orange {
+	background-color: #ec6607 !important;
+}    
+.blue {
+	background-color: #004f9e !important;
+}  
+.purple {
+	background-color: #6f2282 !important;
+}   
+.cyan {
+	background-color: #009bb4 !important;
+}   
+.red {
+	background-color: #004f9e !important;
+}   
+.yellow {
+	background-color: #fbb900 !important;
+}   
+.green {
+	background-color: #51ae32 !important;
+}   
+.icon-white {
+	background-color: #bbbbbb !important;
+}   
+.grey {
+	background-color: #706f6e !important;
+}   
+.logo-grey {
+	background-color: #706F6F !important;
+}   
+.light-grey {
+	background-color: #F2F2F2 !important;
+}   
+.medium-grey {
+	background-color: #B7B7B7 !important;
+}   
+.dark-grey {
+	background-color: #494949 !important;
+}   
+.black {
+	background-color: #000 !important;
+}   
+.gunmetal-grey {
+	background-color: #333333 !important;
+}   
+.font-black {
+	background-color: #212121 !important;
+}   
+
+/*Font Resets*/
+body {
+	font-size: 15px !important;
+	font-family: 'Source Sans Pro';
+	background: #706f6e none repeat scroll 0 0 !important;
+}
+.indemand1 p, .indemand2 p, .indemand3 p, .indemand4 p, .indemand5 p {
+    font-size: 1em !important;
+}
+
+.breadcrumbs {
+    color: #ec6607  !important;
+    font-size: 0.75em;
+    font-weight: normal !important;
+}
+
+/*Header & Navigation*/
+#header {
+	background-color: #fff;
+	height: 115px;
+}
+
+#navigation {
+    background: #fff;
+}
+
+.normalnav a:hover {
+    border-bottom: 4px solid #ec6607;
+    padding-bottom: 9px;
+}
+
+
+#footer {
+    background: #706f6e none repeat scroll 0 0;
+}
+
+#footer a {
+    color: #eeeeee;
+}
+
+#footer h2:hover, #footer h2 a:hover, #footer a:hover {
+	color: #ec6607;
+}
+
+.normalnav, .normalnav a {
+    color: #000 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.statsindemand {
+    margin: 42px auto 30px;
+    width: 1200px;
+}
+
+/*Top Header Links*/
+#toplinks a {
+    color: #B7B7B7;
+}
+
+#quicklinks a {
+	color: #51ae32;
+}
+
+/*Various Card Header Overrides*/
+.cardcontent li, .cardcontent ul li ul li, #quicklinks li, #homereleasecal li {
+	padding: 9px 15px 9px 31px;
+}
+
+/*Releases override*/
+#alsoavailable h3, 
+#recentreleases h3, 
+#homereleasecal h2,  
+#latestreleases h2 {
+	background-color: #ec6607;
+}
+
+#latestreleases h3, #latestreleases h3 a {
+    color: #333;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#latestreleases .releasetext h4, 
+#recentreleases .date, 
+#alsoavailable .date,
+#homereleasecal .reldate {
+	color: #ec6607;	
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
+.availabletext a {
+	font-size: 0.95em;
+	margin: 5px 0 0;
+	padding: 0;
+	color: #444;	
+}
+
+#recentreleases ul li, #alsoavailable ul li {
+	border-bottom: 1px solid #ccc;
+	display:block;
+	overflow:auto;;
+	padding: 8px 15px 0;
+}
+
+
+/*Top card override*/
+.top {
+    background-color: #6f2282  !important;
+}
+
+#quicklinks h2 {
+    background: #51ae32;
+}
+
+.rightbox h2 {
+    background: #706f6e none repeat scroll 0 0;
+}
+
+.cardtitle.green {
+	background-color: #009bb4 !important;
+}
+
+.cardtitle {
+	margin-bottom: 5px !important;
+}
+
+/*Link and Text Resets*/
+
+.browsebox a {
+ 	color: #009bb4;
+}
+
+.locationbox a {
+	color: #004f9e;
+}
+
+#statsindemandcentral a {
+	color: #6f2282;
+}
+
+
+.releasecalfull, .releasecalfull a {
+	background-image: none;
+	color: #ec6607;
+}
+
+
+/*Card list item border bottom & width fix*/
+.cardcontent ul li ul li, #quicklinks li, #homereleasecal li  {
+  width: 70%;
+  padding-left: 0px;  
+  margin-left: 30px;
+}
+
+#quicklinks.rightbox ul {
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+	padding-top: 0px !important;
+}
+
+#quicklinks.rightbox ul li {
+	margin-left: 25px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ccc;
+	width: 82%;
+}
+
+/*Upcoming Releases*/
+#homereleasecal .reldate {
+	float: none;
+	clear: none;
+	color: #ec6607;
+	font-size: 0.9em;
+}
+
+#homereleasecal li {
+    margin-left: 8px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#share, #sharefloatright {
+	top: 201px;
+}
+
+
+/*Page Title Full Page Templates*/
+/*http://stats.govt.nz/browse_for_stats.aspx*/
+
+.pagetitle {
+	background-color: #ec6607;
+}
+
+.content h2 a, .content h2 a:hover {
+    border: medium none;
+    color: #ec6607 !important;
+}
+
+.content h2 {
+    color: #ec6607 !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin: 25px 0 5px;
+    padding: 0;
+}
+
+
+.content a {
+    border-bottom: 1px solid #cccccc;
+    color: #444 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.content a:hover {
+    border-bottom: 1px solid #ec6607;
+    color: #ec6607 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.jumplinks a {
+    color: #706f6e !important;
+}
+
+.rightbox a {
+    color: #706f6e;
+}
+
+.rightbox a:hover {
+	color: #ec6607;
+	border-color: #ec6607;
+}
+
+.jumplinks a:hover {
+	color: #ec6607 !important;
+	border-color: #ec6607;
+}
+
+.back-to-top {
+    background-color: #f2f2f2;
+    color: #706f6e;
+}
+
+/*Page Link Buttons -- Releases*/
+.linkNext, .linkPrevious {
+    background: #ec6607 none repeat scroll 0 0 !important;
+}
+
+#releasecalendar a.linkPrevious, #releasecalendar a.linkNext {
+	color: #fff !important;
+}
+
+#activeheader {
+    background-color: #ec6607;
+}
+
+#futureheader {
+	background-color: #004f9e !important;
+}
+
+#releasecalendar a:hover {
+    border-bottom: 1px solid #ec6607;
+}
+
+#activereleases .ST_col_date {
+    color: #ec6607;
+}
+
+#futurereleases .ST_col_date {
+    color: #004f9e;
+}

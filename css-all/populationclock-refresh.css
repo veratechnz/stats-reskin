@@ -1,0 +1,202 @@
+
+
+
+/*right colum 30% */
+
+.one-third
+{
+	width: 31.0%!important;
+	margin:-13px 15px 0 0px ;
+	padding:0;
+	
+	float:right!important;
+}
+
+.two-thirds
+{
+width:66% !important;
+}
+
+#popclock
+{
+	margin:20px 0 20px 0px;
+	width:90%;
+	color:#555;
+
+	padding:5px 0px 20px 30px;
+	background:#fff;
+	
+	
+	
+}
+
+.content
+{
+margin-top:-172px;
+padding-top:170px;
+}
+
+.popclocknumber
+{
+	
+	display: inline-block;
+	width:100%;
+
+	font-size: 4.85em;
+	font-weight: 700;
+	color:#256f95;
+}
+
+.popclocktext
+{
+		font-weight: 700;
+		color: #444444;
+}
+
+/*FORCE SHARE TOP RIGHT DESKTOP*/
+
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#popclock
+{
+	margin-left: 0px;
+}
+
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 900px)
+{
+.content
+{
+margin-top:-168px;
+padding-top:10px;
+}
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#popclock
+{
+	margin:0px 0 20px 0px;
+	width:auto!important;
+	color:#555;
+
+	padding:5px 0px 20px 30px;
+	background:#fff;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+-moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.8);
+	
+	
+	
+}
+
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+	
+}
+
+#popclock
+{
+	margin-left: 0px;
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:99.5%;
+	float:right;
+	margin:0 0 0 10px;
+	
+}
+
+	#share
+{
+	position:relative;
+	top:0;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline;
+}
+
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+	#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+#popclock
+{
+	margin-left: 2px;
+	font-size:0.75em
+}
+
+.popclocknumber
+{
+	font-size: 3.8em;
+}
+
+}

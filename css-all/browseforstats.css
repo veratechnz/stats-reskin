@@ -1,0 +1,220 @@
+
+
+	.grid .one-third
+{
+	margin-top:-10px !important;
+}
+
+/*secondary share - desktop single content page because of single column*/
+
+#sharefloatright
+{
+	position:absolute;
+	float:right;
+	width:979px;
+	height:40px;
+	padding:0;
+	margin:20px auto 10px auto ;
+}
+
+#sharefloatright ul
+{
+	padding:0;
+	width:29.9%;
+	float:right;
+	margin: 0px 1px 0 0;
+}
+
+#sharefloatright li
+{
+	display: inline-block;
+}
+
+#sharefloatright li:last-child
+{
+	padding-right: 0px;
+}
+
+#sharefloatright img
+{
+	box-shadow: 0px 2px 4px #cccccc;
+}
+
+/*normal share hide*/
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+/*CONTENT FOR BROWSE FOR STATS*/
+
+.content h2
+{
+	font-size: 1.2em;
+    color: #256f95!important; 
+	margin-bottom: 0px !important;	
+	
+	
+}
+
+.content h2 a, .content h2 a:hover
+{
+    color: #256f95!important;   
+	border:none;
+	
+	
+}
+
+ .content h2:first-child
+ {
+	margin-top: 25px !important;
+ }
+
+.content li
+{
+	list-style-type: none;
+	list-style-image: none;
+	padding:10px 0 0 0;
+	margin:0;
+}
+
+.content ul
+{
+	padding:0;
+	margin:0;
+}
+.content
+{
+	font-size: 0.95em;
+	padding-right: 20px;
+	margin: -20px 0 0px 0!important ;
+}
+
+/*DESKTOP STYLES*/
+
+@media screen and(min-width: 991px){
+
+		
+ 
+
+}
+
+/*TABLET HORIZONTAL STYLES*/
+@media screen and (max-width: 990px)
+{
+
+
+#sharefloatright
+{
+	width:100%;
+}
+#share
+{
+	display:none;
+}
+
+#share ul
+{
+	width:30%;
+	float:right;
+	
+}
+
+#breadcrumbscentral
+{
+	width:100%;
+	margin-right:5px;
+
+}
+
+	
+}
+
+/*TABLET VERTICAL STYLES*/
+@media screen and (max-width: 800px)
+{
+
+#sharefloatright
+{
+display:none;
+}
+
+#share ul
+{
+	width:100%;
+	float:right;
+	margin-top: 20px;
+	
+}
+
+	#share
+{
+	position:relative;
+	
+	margin:0px 0 0 0 ;
+	padding:0;
+	
+	display:inline;
+}
+
+	
+
+
+}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 569px) 
+{
+
+		#breadcrumbscentral
+{
+	font-size:0.8em;
+	margin-bottom:-10px;
+}
+	
+	
+	#share
+{
+	display:none;
+}
+
+.content h2
+{
+	font-size: 1.3em;
+	 color: #256f95!important;  
+	
+}
+
+.content h2 a, .content h2 a:hover
+{
+	 color: #256f95!important;  
+	border:none;
+}
+
+.content
+{
+	
+	padding-right: 20px;
+	margin: -20px 0 0px 0!important ;
+}
+.content li
+{
+	
+	line-height: 1.5em;
+}
+
+.pagetitle
+{
+	margin-left:2px !important;
+}
+
+
+}
