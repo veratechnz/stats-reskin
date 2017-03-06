@@ -138,6 +138,27 @@ body {
 	color: #51ae32;
 }
 
+
+#quicklinks a {
+    color: #51ae32;
+}
+
+.unit.one-third #quicklinks.rightbox ul li a {
+	color: #706f6e;
+}
+
+.unit.one-third #quicklinks.rightbox ul li a:hover {
+	color: #ec6607;
+}
+
+.popclocknumber {
+    color: #004f9e;
+}
+
+#quicklinks h2 {
+    background: #706f6e none repeat scroll 0 0 !important;
+}
+
 /*Various Card Header Overrides*/
 .cardcontent li, .cardcontent ul li ul li, #quicklinks li, #homereleasecal li {
 	padding: 9px 15px 9px 31px;
@@ -305,6 +326,12 @@ body {
     color: #ec6607 !important;
     font-size: 1.25em;
     font-weight: normal !important;
+}
+
+
+.content h3 a {
+    color: #ec6607 !important;
+    border-bottom: 1px solid #ec6607; 
 }
 
 .jumplinks a {
