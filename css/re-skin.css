@@ -98,11 +98,14 @@ body {
     background: #fff;
 }
 
+<<<<<<< HEAD
 .normalnav a:hover {
     border-bottom: 4px solid #ec6607;
     padding-bottom: 9px;
 }
 
+=======
+>>>>>>> 096c767b88322a7d8dfc75b645b378878cba523a
 
 #footer {
     background: #706f6e none repeat scroll 0 0;
@@ -322,6 +325,7 @@ body {
     color: #706f6e;
 }
 
+<<<<<<< HEAD
 /*Page Link Buttons -- Releases*/
 .linkNext, .linkPrevious {
     background: #ec6607 none repeat scroll 0 0 !important;
@@ -350,3 +354,7 @@ body {
 #futurereleases .ST_col_date {
     color: #004f9e;
 }
+=======
+
+
+>>>>>>> 096c767b88322a7d8dfc75b645b378878cba523a
