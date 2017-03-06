@@ -144,7 +144,8 @@ body {
 }
 
 .unit.one-third #quicklinks.rightbox ul li a {
-	color: #51ae32;
+	color: #333;
+	font-weight: 600;
 }
 
 .unit.one-third #quicklinks.rightbox ul li a:hover {
@@ -156,9 +157,9 @@ body {
     color: #004f9e;
 }
 
-/*#quicklinks h2 {
-    background: #706f6e none repeat scroll 0 0 !important;
-}*/
+#quicklinks h2 {
+    background: #ec6607 none repeat scroll 0 0 !important;
+}
 
 /*Various Card Header Overrides*/
 .cardcontent li, .cardcontent ul li ul li, #quicklinks li, #homereleasecal li {
@@ -207,7 +208,7 @@ body {
 
 /*Top card override*/
 .top {
-    background-color: #6f2282  !important;
+    background-color: #ec6607 !important;
 }
 
 #quicklinks h2 {
@@ -215,11 +216,15 @@ body {
 }
 
 .rightbox h2 {
-    background: #706f6e none repeat scroll 0 0;
+    background: #ec6607 none repeat scroll 0 0;
 }
 
 .cardtitle.green {
-	background-color: #009bb4 !important;
+	background-color: #ec6607 !important;
+}
+
+.cardtitle.blue {
+	background-color: #ec6607 !important;
 }
 
 .cardtitle {
@@ -229,23 +234,32 @@ body {
 /*Link and Text Resets*/
 
 .browsebox a {
- 	color: #009bb4;
+ 	color: #333;
+ 	font-weight: 600;
 }
 
 .locationbox a {
-	color: #004f9e;
+	color: #333;
+	font-weight: 600;
 }
 
 #statsindemandcentral a {
-	color: #6f2282;
+	color: #333;
+	font-weight: 600;
 }
-
 
 .releasecalfull, .releasecalfull a {
 	background-image: none;
 	color: #ec6607;
+	font-weight: 600;
 }
 
+/*All Hovers*/
+
+.browsebox a:hover, #statsindemandcentral a:hover, .locationbox a:hover {
+	color: #ec6607;
+	border-bottom: 1px solid #ec6607;s
+}
 
 /*Card list item border bottom & width fix*/
 .cardcontent ul li ul li, #quicklinks li, #homereleasecal li  {
