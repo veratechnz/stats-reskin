@@ -301,6 +301,12 @@ body {
     padding: 0;
 }
 
+.content h3 {
+    color: #ec6607 !important;
+    font-size: 1.25em;
+    font-weight: normal !important;
+}
+
 .jumplinks a {
     color: #706f6e !important;
 }
@@ -352,4 +358,10 @@ body {
 
 #futurereleases .ST_col_date {
     color: #004f9e;
+}
+
+
+/*Event Calendar*/
+.block.fullWidth.eventsCalendar .right-column {
+	margin-right: -62%;
 }
