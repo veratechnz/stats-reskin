@@ -144,20 +144,21 @@ body {
 }
 
 .unit.one-third #quicklinks.rightbox ul li a {
-	color: #706f6e;
+	color: #51ae32;
 }
 
 .unit.one-third #quicklinks.rightbox ul li a:hover {
 	color: #ec6607;
+	border-bottom: 1px solid #ec6607;
 }
 
 .popclocknumber {
     color: #004f9e;
 }
 
-#quicklinks h2 {
+/*#quicklinks h2 {
     background: #706f6e none repeat scroll 0 0 !important;
-}
+}*/
 
 /*Various Card Header Overrides*/
 .cardcontent li, .cardcontent ul li ul li, #quicklinks li, #homereleasecal li {
