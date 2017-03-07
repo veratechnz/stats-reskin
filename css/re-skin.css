@@ -104,8 +104,6 @@ body {
     padding-bottom: 9px;
 }
 
-
-
 #footer {
     background: #706f6e none repeat scroll 0 0;
 }
@@ -154,11 +152,11 @@ body {
 }
 
 .popclocknumber {
-    color: #004f9e;
+    color: #333;
 }
 
 #quicklinks h2 {
-    background: #ec6607 none repeat scroll 0 0 !important;
+    background: #706f6e none repeat scroll 0 0 !important;
 }
 
 /*Various Card Header Overrides*/
@@ -216,7 +214,7 @@ body {
 }
 
 .rightbox h2 {
-    background: #ec6607 none repeat scroll 0 0;
+    background: #706f6e none repeat scroll 0 0;
 }
 
 .cardtitle.green {
@@ -255,8 +253,13 @@ body {
 }
 
 /*All Hovers*/
-
-.browsebox a:hover, #statsindemandcentral a:hover, .locationbox a:hover {
+.browsebox a:hover, 
+#statsindemandcentral a:hover, 
+.locationbox a:hover,
+.availabletext a:hover,
+#recentreleases a:hover,
+#alsoavailable a:hover,
+#latestreleases h3 a:hover {
 	color: #ec6607;
 	border-bottom: 1px solid #ec6607;s
 }
@@ -354,7 +357,8 @@ body {
 }
 
 .rightbox a {
-    color: #706f6e;
+    color: #333;
+    font-weight: 600;
 }
 
 .rightbox a:hover {
